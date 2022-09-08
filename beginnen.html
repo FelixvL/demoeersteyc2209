@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script>
+
+		function beginnen(){
+				var zelfkiezen = document.getElementById("zoekveld").value;
+				document.getElementById("deh1").innerHTML = "Welkom: "+ zelfkiezen;
+				document.getElementById("deh1").style.backgroundColor = "orange";
+		}
+	</script>
+	<style>
+
+
+	</style>
+</head>
+<body>
+	<button onclick="beginnen()">lets go</button>
+	<input type="text" id="zoekveld" >
+	<h1 id="deh1">test</h1>
+</body>
+</html>
